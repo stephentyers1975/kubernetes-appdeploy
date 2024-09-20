@@ -6,7 +6,7 @@ spec:
   ports:
     - port: 3306
       targetPort: vprodb-port
-      protocil: TCP
+      protocol: TCP
   selector:
     app: vprodb
   
